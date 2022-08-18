@@ -1,6 +1,6 @@
 # Apex Legends Player Tracker
 # Utilizes API data provided by https://apexlegendsapi.com
-# Written by returnMarcco on 18/08/2022re
+# Written by returnMarcco on 18/08/2022
 # github.com/returnMarcco
 
 import requests as rq
