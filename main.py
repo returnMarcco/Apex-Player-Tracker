@@ -32,9 +32,8 @@ def platformChoice():
     platformOfUser = input()
     
     if (platformOfUser == "1"):
-       
-       apexPlayerDataAPI = "https://api.mozambiquehe.re/bridge?auth=d1878ee75a74ec99525d4dc4debf235d&player=" + userToQuery + "&platform=" + pcPlatform
-       return apexPlayerDataAPI
+        apexPlayerDataAPI = "https://api.mozambiquehe.re/bridge?auth=d1878ee75a74ec99525d4dc4debf235d&player=" + userToQuery + "&platform=" + pcPlatform
+        return apexPlayerDataAPI
         
     elif (platformOfUser == "2"):
         apexPlayerDataAPI = "https://api.mozambiquehe.re/bridge?auth=d1878ee75a74ec99525d4dc4debf235d&player=" + userToQuery + "&platform=" + playstationPlatform
