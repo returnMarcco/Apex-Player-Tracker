@@ -24,7 +24,6 @@ def platformChoice():
     xboxPlatform = "X1"
     apexPlayerDataAPI = ""
     
-   
     print("Enter the number relevant to the platform user [ " + userToQuery + " ] plays on: ")
     print("1 - PC")
     print("2 - Playstation")
@@ -37,17 +36,14 @@ def platformChoice():
        apexPlayerDataAPI = "https://api.mozambiquehe.re/bridge?auth=d1878ee75a74ec99525d4dc4debf235d&player=" + userToQuery + "&platform=" + pcPlatform
        return apexPlayerDataAPI
         
-
     elif (platformOfUser == "2"):
         apexPlayerDataAPI = "https://api.mozambiquehe.re/bridge?auth=d1878ee75a74ec99525d4dc4debf235d&player=" + userToQuery + "&platform=" + playstationPlatform
         return apexPlayerDataAPI
         
-
     elif (platformOfUser == "3"):
         apexPlayerDataAPI = "https://api.mozambiquehe.re/bridge?auth=d1878ee75a74ec99525d4dc4debf235d&player=" + userToQuery + "&platform=" + xboxPlatform
         return apexPlayerDataAPI
         
-    
     elif (platformOfUser == "4"):
         randomQuip()
     
