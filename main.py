@@ -17,7 +17,6 @@ def randomQuip():
     print(random.choice(randomQuipList))
 
 def platformChoice():
-    
     userToQuery = playerToQuery()
     pcPlatform = "PC"
     playstationPlatform = "PS4"
