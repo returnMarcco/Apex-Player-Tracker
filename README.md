@@ -1,6 +1,6 @@
-Written by returnMarcco
-https://twitch.tv/returnMarcco
-https://www.youtube.com/channel/UC1aPOXPpMAKbPOT0Hw1GbMg
+Written by returnMarcco <br>
+Follow me on Twitch: https://twitch.tv/returnMarcco <br>
+Subscribe to my YouTube Channel: https://www.youtube.com/channel/UC1aPOXPpMAKbPOT0Hw1GbMg
 
 ApexPlayerTracker <br>
 A Python script which utilizes an API from apexlegendsstatus.com to display player data
