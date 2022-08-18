@@ -79,7 +79,7 @@ def apiCall():
     except:
         print("")
 
-apiCall() # Function Call
+apiCall() # Driver function
 
 
             
