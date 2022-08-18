@@ -2,7 +2,7 @@ Written by returnMarcco
 https://twitch.tv/returnMarcco
 https://www.youtube.com/channel/UC1aPOXPpMAKbPOT0Hw1GbMg
 
-ApexPlayerTracker
+ApexPlayerTracker <br>
 A Python script which utilizes an API from apexlegendsstatus.com to display player data
 
 Instructions
