@@ -10,5 +10,5 @@ Instructions
 
 1. Download the Python script main.py
 2. Open main.py in a text editor and copy all lines of code
-3. Navigate to https://www.programiz.com/python-programming/online-compiler/ to access a web based Python interpreter. Alternatively you can use a local interpreter if   you choose.
+3. Navigate to https://www.programiz.com/python-programming/online-compiler/ to access a web based Python interpreter. Alternatively, you could use a Python interpreter installed on the local machine
 4. Run the code and follow the prompts
