@@ -3,7 +3,7 @@ Follow me on Twitch: https://twitch.tv/returnMarcco <br>
 Subscribe to my YouTube Channel: https://www.youtube.com/channel/UC1aPOXPpMAKbPOT0Hw1GbMg
 
 ApexPlayerTracker <br>
-A Python script which utilizes an API from apexlegendsstatus.com to query comprehensive player data
+A Python script which utilizes an API from apexlegendsstatus.com to comprehensively query player data
 
 Instructions
 ==============
