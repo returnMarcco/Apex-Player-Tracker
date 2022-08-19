@@ -79,3 +79,4 @@ def apiCall(): # Driver function
         print("")
 
 apiCall()
+# Sample Apex Legends Player - Username: returnMarcco | Platform: PC
