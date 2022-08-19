@@ -49,7 +49,7 @@ def platformChoice():
         print("That choice is invalid. Please select from one of the available options.")
         platformChoice()
 
-def apiCall():
+def apiCall(): # Driver function
     
     apexPlayerDataAPI = platformChoice()
     
@@ -78,11 +78,4 @@ def apiCall():
     except:
         print("")
 
-apiCall() # Driver function
-
-
-            
-
-
-
-
+apiCall()
