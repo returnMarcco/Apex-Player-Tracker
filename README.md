@@ -1,4 +1,5 @@
-Written by returnMarcco <br>
+Written by returnMarcco
+========================
 Follow me on Twitch: https://twitch.tv/returnMarcco <br>
 Subscribe to my YouTube Channel: https://www.youtube.com/channel/UC1aPOXPpMAKbPOT0Hw1GbMg
 
