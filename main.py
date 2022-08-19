@@ -49,12 +49,12 @@ def platformChoice():
         print("That choice is invalid. Please select from one of the available options.")
         platformChoice()
 
-def apiCall(): # Driver function
+def apiCall():
     
     apexPlayerDataAPI = platformChoice()
     
     try:
-        r = rq.get(apexPlayerDataAPI) # Made API call and stored data in variable r
+        r = rq.get(apexPlayerDataAPI) # Made API call and stored data in variable requestedData
         r.raise_for_status()
         response = r.json() # Storing json format data from the api call in variable response
 
@@ -75,8 +75,16 @@ def apiCall(): # Driver function
     except rq.exceptions.HTTPError:
         print("Error " + str(r.status_code) + ": The queried player was not found. Please try again.")
         apiCall()
-    except:
+    except rq.exceptions.MissingSchema:
         print("")
+    except:
+        print("An unidentified error has occured.")
 
-apiCall()
-# Sample Apex Legends player to query - Username: returnMarcco | Platform: PC
+apiCall() # Driver function
+
+
+            
+
+
+
+
