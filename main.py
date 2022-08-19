@@ -54,7 +54,7 @@ def apiCall():
     apexPlayerDataAPI = platformChoice()
     
     try:
-        r = rq.get(apexPlayerDataAPI) # Made API call and stored data in variable requestedData
+        r = rq.get(apexPlayerDataAPI) # Made API call and stored data in variable r
         r.raise_for_status()
         response = r.json() # Storing json format data from the api call in variable response
 
