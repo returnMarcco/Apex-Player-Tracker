@@ -23,7 +23,7 @@ def platformChoice():
     xboxPlatform = "X1"
     apexPlayerDataAPI = ""
     
-    print("Enter the number relevant to the platform user [ " + userToQuery + " ] plays on: ")
+    print("Enter the number corresponding to the platform user [ " + userToQuery + " ] plays on: ")
     print("1 - PC")
     print("2 - Playstation")
     print("3 - Xbox")
@@ -54,7 +54,7 @@ def apiCall():
     apexPlayerDataAPI = platformChoice()
     
     try:
-        r = rq.get(apexPlayerDataAPI) # Made API call and stored data in variable requestedData
+        r = rq.get(apexPlayerDataAPI) # Made API call and stored data in variable r
         r.raise_for_status()
         response = r.json() # Storing json format data from the api call in variable response
 
